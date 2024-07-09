@@ -26,8 +26,8 @@ install_github("fentouxungui/BiologyDBLight")
 ## 数据
 
 ``` r
-library(BiologyDB)
-d <- data(package = "BiologyDB")
+library(BiologyDBLight)
+d <- data(package = "BiologyDBLight")
 d$results[,"Item"]
 #>  [1] "AnimalTFDB_Fly_TF"                                                
 #>  [2] "AnimalTFDB_Fly_TFCofactors"                                       
@@ -114,7 +114,7 @@ sessionInfo()
 #> [1] stats     graphics  grDevices utils     datasets  methods   base     
 #> 
 #> other attached packages:
-#> [1] BiologyDB_0.0.0.9000
+#> [1] BiologyDBLight_0.0.0.9000
 #> 
 #> loaded via a namespace (and not attached):
 #>  [1] compiler_4.4.1    fastmap_1.2.0     cli_3.6.3         tools_4.4.1      

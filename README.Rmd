@@ -36,8 +36,8 @@ install_github("fentouxungui/BiologyDBLight")
 ## 数据
 
 ```{r example}
-library(BiologyDB)
-d <- data(package = "BiologyDB")
+library(BiologyDBLight)
+d <- data(package = "BiologyDBLight")
 d$results[,"Item"]
 ```
 
