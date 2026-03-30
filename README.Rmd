@@ -38,8 +38,17 @@ install_github("fentouxungui/BiologyDBLight")
 ```{r example}
 library(BiologyDBLight)
 d <- data(package = "BiologyDBLight")
-d$results[,"Item"]
+all_data <- d$results[,"Item"]
+print(all_data)
 ```
+
+```{r}
+for (i in all_data) {
+  print(paste0( paste0(rep('#', 20), collapse = ''), '   ',i,  '   ',paste0(rep('#', 20), collapse = '')))
+  print(str(get(i)))
+}
+```
+
 
 ## R sessions
 
